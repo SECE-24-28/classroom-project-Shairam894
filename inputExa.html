@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Application Form</title>
+</head>
+<body>
+
+<h2>Student Application Form</h2>
+<form>
+
+    <h3>Personal Information</h3>
+    <label>First Name:</label>
+    <input type="text" name="fname" required><br><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="lname" required><br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" name="dob" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other <br><br>
+
+    <label>Address:</label><br>
+    <textarea rows="4" cols="40" name="address" required></textarea><br><br>
+
+    <h3>Contact Details</h3>
+    <label>Email:</label>
+    <input type="email" name="email" required><br><br>
+
+    <label>Phone Number:</label>
+    <input type="tel" name="phone" required><br><br>
+
+    <h3>Academic Information</h3>
+    <label>Highest Qualification:</label>
+    <select name="qualification" required>
+        <option value="">--Select--</option>
+        <option>High School</option>
+        <option>Diploma</option>
+        <option>Undergraduate</option>
+        <option>Postgraduate</option>
+    </select><br><br>
+
+    <label>Institution / School Name:</label>
+    <input type="text" name="institution" required><br><br>
+
+    <label>Year of Passing:</label>
+    <input type="text" name="year"><br><br>
+
+    <h3>Course Details</h3>
+    <label>Course Applying For:</label>
+    <select name="course" required>
+        <option value="">--Select--</option>
+        <option>BSc Computer Science</option>
+        <option>BCA</option>
+        <option>BCom</option>
+        <option>BA English</option>
+        <option>MSc Data Science</option>
+    </select><br><br>
+
+    <label>Upload Photo:</label>
+    <input type="file" name="photo"><br><br>
+
+    <label>Upload Resume (PDF):</label>
+    <input type="file" name="resume"><br><br>
+
+    <h3>Personal Statement</h3>
+    <textarea rows="5" cols="50" name="statement" placeholder="Why do you want to join?"></textarea><br><br>
+
+    <input type="submit" value="Submit Application">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
