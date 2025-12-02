@@ -1,0 +1,39 @@
+h1{
+    background-color: lightblue;
+}
+.outer-container {
+    position: relative;
+    border:1px solid rgb(255, 0, 0);
+    width: 500px;
+    height:740px;
+}
+.inner-container {
+    border:1px solid rgb(0, 0, 255);
+    height:700px;
+    margin: 20px;
+}
+.boxabs{
+    position: absolute;
+    top:0px;
+    left: 70px;
+    border: 1px solid rgb(255, 136, 0);
+    width: 100px;
+    height: 100px;
+}
+.boxrel{
+  
+    border: 1px solid rgb(0, 136, 255);
+    width: 100px;
+    height: 100px;
+}
+.boxfix{
+   
+    border: 1px solid rgb(0, 255, 136);
+    width: 100px;
+    height: 100px;
+}
+.boxsti{
+    border: 1px solid rgb(136, 0, 255);
+    width: 100px;
+    height: 100px;
+}
