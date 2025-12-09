@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let num=0;
+        let arr=["FB.png","TW.png","WH.png"];
+        function next(){
+            num++;
+            if(num>2)
+            num=0;
+        let img=document.getElementById("im");
+        img.src=arr[num];
+        }
+        function prev()
+    {
+    num--;
+    if(num<0)
+    num=2;
+    let img=document.getElementById("im");
+    img.src=arr[num];
+    }
+</script>
+</head>
+<body>
+    <img src="FB.png" alt="" width="400px",height="400px"
+    
+</body>
+</html>

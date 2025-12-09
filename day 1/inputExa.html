@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; flex-direction: column; }
+    </style>
+</head>
+<body>
+
+<h2>Application Form</h2>
+
+<form>
+
+Name: <input type="text" name="name"><br><br>
+
+Email: <input type="email" name="email"><br><br>
+
+Phone: <input type="text" name="phone"><br><br>
+
+Gender:
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<br><br>
+
+Address:<br>
+<textarea name="address"></textarea><br><br>
+
+Course:
+<select name="course">
+    <option>BE.CS</option>
+    <option>BTech.IT</option>
+    <option>BCom</option>
+</select>
+<br><br>
+
+Photo: <input type="file" name="photo"><br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>

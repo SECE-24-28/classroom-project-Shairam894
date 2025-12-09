@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      function  demo(a) {
+        // alert("hello")
+        let img = document.getElementById('im');
+        if(a==1){
+            img.src = 'TW.png';
+        }else{
+            img.src = 'FB.png';
+
+        }
+
+       }          
+    </script>
+</head>
+<body>
+    <img src="FB.png" alt="" width="400px" height="400px" id="im">
+    <button onclick="demo(1)">Click Me</button>
+    <button onclick="demo(0)">Previous</button>
+</body>
+</html>
